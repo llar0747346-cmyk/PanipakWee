@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: #FF33CC;
     width: 400px;
     margin: 80px auto;
     padding: 30px;
@@ -34,7 +34,7 @@ h2 {
 }
 
 p {
-    color: #334155;
+    color: #CC33CC;
     font-size: 15px;
     line-height: 1.6;
 }
@@ -44,7 +44,7 @@ p {
     margin-top: 20px;
     padding: 10px 25px;
     background-color: #1e3a8a;
-    color: #ffffff;
+    color: #9900CC;
     text-decoration: none;
     border-radius: 25px;
     transition: 0.3s;
