@@ -1,55 +1,74 @@
-body {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    background: linear-gradient(135deg, #1e3a8a, #38bdf8);
-    margin: 0;
-    padding: 0;
+body{
+    background-color: #f5e9d3;
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgba(0,0,0,0.03),
+        rgba(0,0,0,0.03) 10px,
+        transparent 10px,
+        transparent 20px
+    );
+    font-family: "Courier New", monospace;
+    color: #3b2f2f;
 }
 
-.container {
-    background-color: #FF33CC;
-    width: 400px;
-    margin: 80px auto;
-    padding: 30px;
-    border-radius: 15px;
+.container{
+    width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #fff8e7;
+    border: 5px double #8b5e3c;
+    box-shadow: 8px 8px 0 #c9a66b;
+}
+
+.profile{
+    display: block;
+    margin: 0 auto 20px;
+    width: 160px;
+    border: 4px solid #8b5e3c;
+    filter: sepia(60%);
+}
+
+h1{
     text-align: center;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    font-size: 32px;
+    letter-spacing: 2px;
 }
 
-.profile {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-bottom: 15px;
+h2{
+    text-align: center;
+    color: #6b4226;
 }
 
-h1 {
-    color: #1e3a8a;
-    margin-bottom: 5px;
+p{
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
 }
 
-h2 {
-    color: #64748b;
-    font-size: 18px;
-    margin-bottom: 15px;
+#members{
+    margin-top: 25px;
+    padding: 15px;
+    border: 3px dashed #8b5e3c;
+    background-color: #fff3d6;
 }
 
-p {
-    color: #CC33CC;
-    font-size: 15px;
-    line-height: 1.6;
+#members ul{
+    list-style-type: square;
 }
 
-.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 25px;
-    background-color: #1e3a8a;
-    color: #9900CC;
+.btn{
+    display: block;
+    width: 200px;
+    margin: 30px auto 0;
+    padding: 10px;
+    text-align: center;
     text-decoration: none;
-    border-radius: 25px;
-    transition: 0.3s;
+    color: #fff;
+    background-color: #8b5e3c;
+    border: 3px solid #3b2f2f;
+    font-weight: bold;
 }
 
-.btn:hover {
-    background-color: #0f172a;
+.btn:hover{
+    background-color: #3b2f2f;
 }
